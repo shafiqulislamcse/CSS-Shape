@@ -1,0 +1,24 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+.talkbox{
+	width: 30%;
+	height: 200px;
+	background-color: #ddd;
+	margin: 50px auto;
+	padding: 10px;
+	position: relative;
+}
+.talkbox::before{
+	content: '';
+    position: absolute;
+    width: 0;
+    height: 0;
+    border-top: 45px solid #dedbdb;
+    border-right: 95px solid transparent;
+    top: 100%;
+    left: 54%;
+}
